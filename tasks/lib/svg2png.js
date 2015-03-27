@@ -32,9 +32,9 @@ var nextFile = function()
 
     svg = frag.querySelector('svg');
 
-    svgWidth = svg.getAttribute('width') || '1';
+    svgWidth = svg.getAttribute('width') || '500';
     svgWidth = parseFloat(svgWidth.replace('px', ''));
-    svgHeight = svg.getAttribute('height') || '1';
+    svgHeight = svg.getAttribute('height') || '500';
     svgHeight = parseFloat(svgHeight.replace('px', ''));
 
     if (file.width && file.width > 0) {
