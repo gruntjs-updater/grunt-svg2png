@@ -1,7 +1,7 @@
 {
-    "name": "grunt-svg2png",
+    "name": "grunt-svg2png-width",
 
-    "description": "Grunt plugin to rasterize SVG to PNG images using PhantomJS",
+    "description": "Grunt plugin to rasterize SVG to PNG images using PhantomJS. From nwtn's fork of dbushel's package. Allows specific svg widths to be set.",
 
     "version": "0.2.5",
 
@@ -11,15 +11,15 @@
         "url": "http://dbushell.com/"
     },
 
-    "homepage": "https://github.com/dbushell/grunt-svg2png",
+    "homepage": "https://github.com/emcarru/grunt-svg2png",
 
     "repository": {
         "type": "git",
-        "url": "git://github.com/dbushell/grunt-svg2png.git"
+        "url": "git://github.com/emcarru/grunt-svg2png.git"
     },
 
     "bugs": {
-        "url": "https://github.com/dbushell/grunt-svg2png/issues"
+        "url": "https://github.com/emcarru/grunt-svg2png/issues"
     },
 
     "main": "Gruntfile.js",
